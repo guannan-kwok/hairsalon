@@ -1,0 +1,412 @@
+/* contact us section */
+ 
+.contact-us {
+    padding: 70px 0px;
+    background: #e6e6e6;
+}
+.section-title h2 {
+    color: #303030;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #547fdb;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact-us input,
+.contact-us textarea {
+    background: #fafafa;
+}
+.contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.logo{
+    padding: 0px 25px;
+    margin-top: 10px;
+    max-width: 150px;
+}
+
+
+#hero {
+    background-image: url("../images/salon\ wide 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+
+}
+
+.jumbotron p {
+    text-align: center;
+    color: white;
+
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+  
+    font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+    background-color: white;
+}
+
+/* adventure section */
+
+
+
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h2 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+
+}
+
+
+#adventure .adventure-card {
+background-image: url("../images/salon.jpg");
+background-size:cover ;
+height:565px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+.adventure-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:white;
+
+}
+
+ .btn-primary {
+    background-color:#ff9900;
+    border-color: #ff9900;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color:#c47703;
+    border-color: #c47703;
+}
+
+.adventure-card .card-items .card-icon {
+    width:75%;
+
+}
+
+
+ h2 .yellow {
+    color:#ff9900;
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+h4 {
+    color:white;
+}
+
+/* Location Section */
+
+#locations {
+    padding:200px 0px 100px;
+    background-image:url("../images/hollywood.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#locations .location-card {
+
+    background-size: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-color: #edeaea;
+    }
+
+.jacob {
+        background-image: url(../images/jacob.jpg);  
+}
+
+.julia {
+    background-image: url(../images/julia.jpg);  
+}
+.han {
+    background-image: url(../images/han.jpg);  
+}
+
+
+
+#locations .location-card .card-items {
+    background-color: white;
+    margin: 0px 30px 50px 30px;
+    padding:20px;
+    
+}       
+
+
+.location-item .card-items h3 {
+
+    font-size:20px;
+    width:45%;
+    
+    
+}
+
+.location-item .card-items .heading {
+    display:flex;
+    justify-content: space-between;
+    }
+
+
+ 
+ /* Mailing List     */
+
+#subscribe {
+
+    background-image: url("../images/toronto.jpg");
+
+    color:white;
+    text-align: center;
+    background-size: cover;
+}
+
+#subscribe h2 {
+    margin-bottom:30px;
+
+}
+
+#subscribe p{
+    margin-bottom:30px;
+
+}
+
+#subscribe .form-container {
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+
+}
+
+#subscribe form {
+    display: flex;
+    justify-content: center;
+}
+#subscribe input {
+    height:50px;
+    border-radius: 0;
+    width:60%;
+    margin-right:20px !important;
+  
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;padding:30px;    
+}
+
+
+footer ul li a {
+    color:white;
+    text-decoration:none;
+    
+}
+
+.back-top {
+
+    padding:30px;
+}
+
+.back-top  img {
+    transform: rotate(180deg);
+
+}
+
+ /* News  */
+ .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .image-block {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-block-inner {
+    -webkit-box-shadow: 0px 3px 10px 1px rgba(204, 204, 204 0, 1);
+    -moz-box-shadow: 0px 3px 10px 1px rgba(204, 204, 204 0, 1);
+    box-shadow: 0px 3px 10px 1px rgba(204, 204, 204, 1);
+  }
+  
+  .image-block li>.image-block-inner {
+    padding-bottom: 30px;
+    background-color: #fff;
+    height: 100%;
+  }
+  
+  a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  h2,
+  h4 a {
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .image-block li>.image-block-inner>a {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .image-block li>.image-block-inner>a img {
+    border: 1px solid #e1e1df;
+  }
+  
+  .image-block li>.image-block-inner:hover {
+    background-color: #eee;
+  }
+  
+  .hp-posts-cat {
+    margin-bottom: 13px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+  }
+  
+  .news {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .news .image-block li>.image-block-inner h4,
+  .hp-posts-cat,
+  .news .image-block li>.image-block-inner p,
+  .read-more {
+    padding: 0 28px;
+  }
+  
+  .read-more {
+    display: block;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  
+  /* Media Queries */
+  
+  @media (min-width: 992px) {
+    .col-md-5 {
+      width: 41.66667%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .image-block li.image-block1 {
+      padding-left: 26px;
+      padding-right: 14.5px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .image-block li>.image-block-inner>a {
+      max-height: 245px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .pl-lg-0,
+    .px-lg-0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .ml-lg-0,
+    .mx-lg-0 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
