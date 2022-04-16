@@ -8,3 +8,6 @@
 
 ## Creating Project Assets
 
+Project assets for the hair salon sign and cards can be found in the [main branch](https://github.com/guannan-kwok/hairsalon/tree/main/Development). 
+
+The webpage assets are found in the [here](https://github.com/guannan-kwok/hairsalon/tree/gh-pages).
