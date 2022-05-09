@@ -43,7 +43,7 @@ body {
 
 
 #hero {
-    background-image: url("../images/salon\ wide 2.jpg");
+    background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -185,7 +185,7 @@ h4 {
 #locations .location-card {
 
     background-size: 100%;
-    height: 450px;
+    height: 750px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -193,6 +193,7 @@ h4 {
     background-repeat: no-repeat;
     background-color: #edeaea;
     }
+
 
 .jacob {
         background-image: url(../images/jacob.jpg);  
@@ -216,11 +217,8 @@ h4 {
 
 
 .location-item .card-items h3 {
-
     font-size:20px;
     width:45%;
-    
-    
 }
 
 .location-item .card-items .heading {
