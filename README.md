@@ -1,6 +1,6 @@
 # Hair Salon Prototype 
 
-<img width="556" alt="thumbnail salon" src="https://github.com/guannan-kwok/hairsalon/blob/main/Development/hair_banner.png">
+<img width="1024" alt="thumbnail salon" src="https://github.com/guannan-kwok/hairsalon/blob/main/Development/hair_banner.png">
 
 This is the development repository for a client project for a hair salon. Various assets were created for a storefront sign, business cards, and a webpage. The final assets were used for promotional material on Google Reviews and Instagram.
 
