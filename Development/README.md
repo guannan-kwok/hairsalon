@@ -12,4 +12,4 @@
 
 
 ## Videos
-![Website Recording](website_recording.mp4)
+![Website Recording](website_recording.gif)
